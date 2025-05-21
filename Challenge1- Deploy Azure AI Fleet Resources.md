@@ -4,22 +4,20 @@ Objective
 Clone the project repo and run the setup script to deploy core Azure
 resources for AI-powered fleet maintenance.
 
-Steps**:**
+**Steps:**
 
 1.  Clone the GitHub repo in Azure Cloudshell:
 
-git clone https://github.com/
++++https://github.com/technofocus-pte/TFFleetOptmztn.git+++
 
-2.  Run below commands in cloud shell
+2.  Provide permission (chmod +x setup.sh)to the setup.sh file located
+    in **TFFleetOptmztn**  folder and then run the setup script:
 
-> pip3 install --upgrade pip
->
-> pip install azureml-sdk
++++cd TFFleetOptmztn/+++
 
-3.  Provide permission (chmod +x setup.sh)to the setup.sh file located
-    in contoso-fleet-ai folder and then run the setup script:
++++chmod +x setup.sh+++
 
-4.  Wait for the script to run completely( the script will take 15-20
+3.  Wait for the script to run completely( the script will take 15-20
     min to run successfully)
 
     - Azure Machine Learning Workspace
@@ -47,5 +45,4 @@ git clone https://github.com/
 
   - Azure AI Search
 
-- Verify that GPT-4.1model is deployed under Deployments in Azure AI
-  Foundry portal.
+
