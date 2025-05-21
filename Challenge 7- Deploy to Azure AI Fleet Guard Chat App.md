@@ -29,8 +29,7 @@ Deploy Azure AI Fleet Guard app as Web app in Azure.
 
 9.  Access the app and check the response of the app with below prompts.
 
-> Vehicle 98765 has an engine health of 82.6%. Coolant temperature is
-> high (113°C)
+> Vehicle 98765 has an engine health of 82.6%. Coolant temperature is high (113°C)
 >
 > my vehicle - 98765 has enginehealth - 0.826120
 >
@@ -45,7 +44,7 @@ Deploy Azure AI Fleet Guard app as Web app in Azure.
 > *What are 3 signs my fleet needs urgent servicing?*
 >
 > ![A screenshot of a chat AI-generated content may be
-> incorrect.](./media/image1.png)
+> incorrect.](./media/ch7image1.png)
 
 **Success Criteria:**
 
