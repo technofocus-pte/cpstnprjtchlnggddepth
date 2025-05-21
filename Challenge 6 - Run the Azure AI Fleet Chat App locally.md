@@ -22,7 +22,7 @@ Run the AI chat assistant that pulls answers from vector search and fleet predic
 
 3.  Run the app locally with the command below
 
-**python app.py**
++++python app.py+++
 
 ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/ch6image1.png)
