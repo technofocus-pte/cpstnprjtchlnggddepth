@@ -116,7 +116,7 @@ fleet_cleaned_data.
 
       - Table name : **public.fleet_cleaned_data**
         
-      ![A screenshot of a chat AI-generated content may be incorrect.](./media/Ch3image2.png)
+      ![A screenshot of a chat AI-generated content may be incorrect.](./media/Ch3image2.jpg)
 
 ### Task 4 : validate and debug pipeline
 
@@ -124,7 +124,7 @@ fleet_cleaned_data.
 
 2.  Debug and publish the flow
 
-  ![A screenshot of a chat AI-generated content may be incorrect.](./media/Ch3image3.png)
+  ![A screenshot of a chat AI-generated content may be incorrect.](./media/Ch3image3.jpg)
 
 **Success Criteria:**
 
