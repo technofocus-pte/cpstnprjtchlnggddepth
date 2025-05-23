@@ -26,6 +26,8 @@ Search.
 4.  Save Vector Algorithm with default values and then save Index field
     with Dimensions -1536 and default vector profile
 
+    ![A screenshot of a chat AI-generated content may be incorrect.](./media/Ch5image1.jpg)
+
 ## Task 3 : Deploy Chat- completion and embedding model.
 
 1.  In Azure OpenAI-\> Azure AI Foundry:
@@ -36,10 +38,16 @@ Search.
     - Deploy base model - **gpt-35-turbo** -customize - **Increase
       Tokens per Minute Rate Limit to max tokens**
 
+      ![A screenshot of a chat AI-generated content may be incorrect.](./media/Ch5image2.jpg)
+
+
 ## Task 4 : Export embeddings to Azure AI search.
 
-2.  Open **export_embeddings_to_search.ipynb** from notebooks and run to
+1.  Open **export_embeddings_to_search.ipynb** from notebooks and run to
     export embeddings to search index.
+
+    ![A screenshot of a chat AI-generated content may be incorrect.](./media/Ch5image3.jpg)
+
 
 **Success Criteria:**
 
