@@ -19,14 +19,19 @@ Search.
 
 2.  Add below fields
 
-[TABLE]
+|Field Name|Data Type|Searchable|Filterable|Sortable|Facetable|Retrievable|Dimensions|
+|filename|Edm.String|Yes|Yes|Yes|No|Yes||
+|content|Edm.String|Yes|No|No|No|Yes||
+|embedding|Collection(Edm.Single)|Yes|No|No|No|Yes|1536|
+
+![A screenshot of a chat AI-generated content may be incorrect.](./media/Ch5image1.jpg)
 
 3.  Save vector profile with default values
 
 4.  Save Vector Algorithm with default values and then save Index field
     with Dimensions -1536 and default vector profile
 
-    ![A screenshot of a chat AI-generated content may be incorrect.](./media/Ch5image1.jpg)
+   ![A screenshot of a chat AI-generated content may be incorrect.](./media/Ch5image2.jpg)
 
 ## Task 3 : Deploy Chat- completion and embedding model.
 
@@ -38,9 +43,7 @@ Search.
     - Deploy base model - **gpt-35-turbo** -customize - **Increase
       Tokens per Minute Rate Limit to max tokens**
 
-      ![A screenshot of a chat AI-generated content may be incorrect.](./media/Ch5image2.jpg)
-
-
+     
 ## Task 4 : Export embeddings to Azure AI search.
 
 1.  Open **export_embeddings_to_search.ipynb** from notebooks and run to
