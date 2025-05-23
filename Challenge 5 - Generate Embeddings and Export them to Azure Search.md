@@ -27,11 +27,11 @@ Search.
 
 3.  Save vector profile with default values
 
-![A screenshot of a chat AI-generated content may be incorrect.](./media/Ch5image1.jpg)
-
 5.  Save Vector Algorithm with default values and then save Index field
     with Dimensions -1536 and default vector profile
 
+   ![A screenshot of a chat AI-generated content may be incorrect.](./media/Ch5image1.jpg)
+   
    ![A screenshot of a chat AI-generated content may be incorrect.](./media/Ch5image2.jpg)
 
 ## Task 3 : Deploy Chat- completion and embedding model.
