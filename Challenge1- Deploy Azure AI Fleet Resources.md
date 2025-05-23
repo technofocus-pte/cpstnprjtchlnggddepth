@@ -8,7 +8,7 @@ resources for AI-powered fleet maintenance.
 
 1.  Clone the GitHub repo in Azure Cloudshell:
 
-+++https://github.com/technofocus-pte/TFFleetOptmztn.git+++
++++git clone https://github.com/technofocus-pte/TFFleetOptmztn.git+++
 
 2.  Provide permission (chmod +x setup.sh)to the setup.sh file located
     in **TFFleetOptmztn**  folder and then run the setup script:
