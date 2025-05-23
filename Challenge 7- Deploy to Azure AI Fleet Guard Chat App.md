@@ -6,7 +6,7 @@ Deploy Azure AI Fleet Guard app as Web app in Azure.
 
 **Steps:**
 
-1.  Install Azute Tool kit in VS code
+1.  Install **Azure Developer CLI** extension  in VS code
 
 2.  Sign in with your azure subscription in VS code
 
@@ -22,11 +22,12 @@ Deploy Azure AI Fleet Guard app as Web app in Azure.
 |**Variable**|**value**|
 |+++FLASK_APP+++|+++app.py+++|
 |+++WEBSITES_PORT+++|+++8000+++|
-6.  Add startup command as +++python -m flask run --host=0.0.0.0 --port=8000+++ in configuration section of the app.
 
-7.  Add Microsoft as identity provider with application-read and write permissions
+6.  Add **startup command** as +++python -m flask run --host=0.0.0.0 --port=8000+++ in configuration section of the app.
 
-8.  Set System assigned identity ON
+7.  Add **Microsoft** as **identity provider** with **application-read and write** permissions
+
+8.  Set System assigned identity **ON**
 
 9.  Access the app and check the response of the app with below prompts.
 
@@ -46,4 +47,4 @@ Deploy Azure AI Fleet Guard app as Web app in Azure.
 
 ![A screenshot of a chat AI-generated content may be incorrect.](./media/ch7image1.png)
 
-### **Success Criteria:**- App should respond with correct tips and cost for the repairs
+### **Success Criteria:**- App should respond with correct tips and cost for the prompt
