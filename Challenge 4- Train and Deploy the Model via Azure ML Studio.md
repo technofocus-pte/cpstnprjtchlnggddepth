@@ -13,7 +13,7 @@ it to an endpoint.
 
 +++git clone https://github.com/technofocus-pte/TFFleetOptmztn.git+++
 
-3.  Open and run notebook **fleet_model_train.ipynb**
+3.  Open **fleet_model_train.ipynb** from Notebooks section and run as per instructions in notebook
 
 4.  Train model using fleet_cleaned_data
 
@@ -25,4 +25,5 @@ it to an endpoint.
 
 - Predictions should disply
 
+![A screenshot of a chat AI-generated content may be incorrect.](./media/Ch4image1.jpg)
 
