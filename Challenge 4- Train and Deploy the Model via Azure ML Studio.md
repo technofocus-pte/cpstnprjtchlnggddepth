@@ -9,14 +9,20 @@ it to an endpoint.
 
 1.  Open AML Studio
 
-2.  Launch and run the notebook: fleet_model_train.ipynb
+2.Clone the GitHub repo in Coputer instance terminal:
 
-3.  Train model using fleet_cleaned_data
++++git clone https://github.com/technofocus-pte/TFFleetOptmztn.git+++
 
-4.  Deploy the model
+3.  Open and run notebook **fleet_model_train.ipynb**
+
+4.  Train model using fleet_cleaned_data
+
+5.  Deploy the model
 
 **Success Criteria:**
 
 - maintenance_model endpoint deployed and active
 
-- Can submit test JSON payload and get prediction
+- Predictions should disply
+
+
