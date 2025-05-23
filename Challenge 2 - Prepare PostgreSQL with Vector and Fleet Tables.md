@@ -112,7 +112,7 @@ MaintenanceFlag INTEGER
 
 7.  grant table access to the user.provide all tables to the user citus
 
-+++GRANT ALL ON TABLE fleet_cleaned_data TO citus;+++
++++GRANT ALL ON TABLE maintenance_documents TO citus;+++
 
 8.  Install **vecotor and azure_ai** extensions
 
