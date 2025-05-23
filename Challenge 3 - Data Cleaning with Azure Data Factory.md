@@ -59,6 +59,8 @@ fleet_cleaned_data.
     dataflow – **Cleandataindataflow** and select new data flow and
     create it as per below requirements
 
+    ![ ](./media/Ch3image1.png)
+
 ### Task 3 : Create Data Flow
 
 1.  Name the data flow – **Cleandatainpostgresqldataflow** and output
@@ -80,7 +82,13 @@ fleet_cleaned_data.
 
 - **Save and finish**
 
-[TABLE]
+  |Column Name|Expression|
+  |--|--|
+  |enginecoolanttemp|coalesce(toInteger(enginecoolanttemp), 25)|
+  |ambientairtemp|coalesce(toInteger(ambientairtemp), 25)|
+  |intakeairtemp|coalesce(toInteger(intakeairtemp), 25)|
+  |enginerpm|coalesce(toInteger(enginerpm), 800)|
+  |vehiclespeedsensor|coalesce(toInteger(vehiclespeedsensor), 0)|
 
 5.  Add **Filter** action next to **repalcenullvalues**
 
@@ -107,12 +115,16 @@ fleet_cleaned_data.
       - Linked Service **: PostgreSQLLinkedService**
 
       - Table name : **public.fleet_cleaned_data**
+        
+      ![ ](./media/Ch3image2.png)
 
 ### Task 4 : validate and debug pipeline
 
 1.  Validate the flow
 
 2.  Debug and publish the flow
+
+   ![ ](./media/Ch3image3.png)
 
 **Success Criteria:**
 
