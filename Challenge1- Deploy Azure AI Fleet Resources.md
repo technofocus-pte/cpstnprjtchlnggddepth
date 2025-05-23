@@ -29,6 +29,8 @@ resources for AI-powered fleet maintenance.
     - Azure OpenAI (with GPT-Turbo model)
 
     - Azure AI Search
+      
+![A screenshot of a chat AI-generated content may be incorrect.](./media/Ch1image1.jpg)
 
 **Success Criteria:**
 
