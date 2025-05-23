@@ -59,8 +59,8 @@ fleet_cleaned_data.
     dataflow – **Cleandataindataflow** and select new data flow and
     create it as per below requirements
 
-    ![ ](./media/Ch3image1.png)
-
+    ![A screenshot of a chat AI-generated content may be incorrect.](./media/Ch3image1.jpg)
+    
 ### Task 3 : Create Data Flow
 
 1.  Name the data flow – **Cleandatainpostgresqldataflow** and output
@@ -116,7 +116,7 @@ fleet_cleaned_data.
 
       - Table name : **public.fleet_cleaned_data**
         
-      ![ ](./media/Ch3image2.png)
+      ![A screenshot of a chat AI-generated content may be incorrect.](./media/Ch3image2.png)
 
 ### Task 4 : validate and debug pipeline
 
@@ -124,7 +124,7 @@ fleet_cleaned_data.
 
 2.  Debug and publish the flow
 
-   ![ ](./media/Ch3image3.png)
+  ![A screenshot of a chat AI-generated content may be incorrect.](./media/Ch3image3.png)
 
 **Success Criteria:**
 
