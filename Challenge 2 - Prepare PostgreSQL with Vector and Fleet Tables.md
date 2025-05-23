@@ -101,20 +101,14 @@ MaintenanceFlag INTEGER
 6.  **Create a** maintenance_documents **Table to Store Documents and
     Embeddings**
 
-> CREATE TABLE maintenance_documents (
->
-> id SERIAL PRIMARY KEY,
->
-> filename TEXT NOT NULL,
->
-> content TEXT NOT NULL,
->
-> embeddings vector(1536) -- Adjust dimensions based on the embedding
-> model
->
-> );
->
-> );
+    ```
+    CREATE TABLE maintenance_documents (
+        id SERIAL PRIMARY KEY,
+        filename TEXT NOT NULL,
+        content TEXT NOT NULL,
+        embeddings vector(1536)  -- Adjust dimensions based on the embedding model
+    );
+    ```
 
 7.  grant table access to the user.provide all tables to the user citus
 
