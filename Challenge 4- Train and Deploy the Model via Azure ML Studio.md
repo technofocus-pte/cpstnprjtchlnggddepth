@@ -18,13 +18,14 @@ it to an endpoint.
 4. Update .env file with all your deployed Azure resource keys,endpoints
 5. Train model using fleet_cleaned_data
 
-7.  Deploy the model form notebook
+7.  Deploy the model from notebook. Deployment takes 20-30 minutes
+8.  Save the AML endpoint and API_Key values to use in challenge 7 while configuring chatapp
 
 **Success Criteria:**
 
-- maintenance_model endpoint deployed and active
+- AML model should have deployed successfully and endpoint and API key should have generated
 
-- Predictions should disply
+- Predictions should display
 
 ![A screenshot of a chat AI-generated content may be incorrect.](./media/Ch4image1.jpg)
 
