@@ -6,16 +6,19 @@ Deploy Azure AI Fleet Guard app as Web app in Azure.
 
 **Steps:**
 
-1.  Install **Azure Developer CLI** extension  in VS code
+1.  Install **Azure Developer CLI**  and **Azure App Service** extension  in VS code
 
 2.  Sign in with your azure subscription in VS code
 
-3.  Create the web app with the name(**FleetGuard**) and select Python
-    10.0 as environment
+3.  Right click on App Service and create web app with below data
+    - App name : FleetGuardXXXX (XXXX cna be unique number)
+    - Region : Central US/West US/East US
+    - Python : 3.10
+    - Plan :Basic
 
-4.  Deploy the chat app as Web app in Azure.
+9.  Right click on chatapp folder and select **Deploy to Azure** to deploy the chat app as Web app in Azure.
 
-5.  in Azure portal, web app add below environment variables.
+10.  Open fleetguard from **App service** in Azure portal, web app add below environment variables.
 
 |||
 |--|--|
@@ -29,7 +32,7 @@ Deploy Azure AI Fleet Guard app as Web app in Azure.
 
 8.  Set System assigned identity **ON**
 
-9.  Access the app and check the response of the app with below prompts.
+9. Open Default domain url form Web app's Overview page and check the response of the app with below prompts.
 
 +++Vehicle 98765 has an engine health of 82.6%. Coolant temperature is high (113°C)+++
 
