@@ -26,7 +26,7 @@ resources for AI-powered fleet maintenance.
 
     - Azure Database for PostgreSQL
 
-    - Azure OpenAI (with GPT-Turbo model)
+    - Azure OpenAI 
 
     - Azure AI Search
       
@@ -43,7 +43,7 @@ resources for AI-powered fleet maintenance.
 
   - Azure Database for PostgreSQL
 
-  - Azure OpenAI (with GPT-Turbo model)
+  - Azure OpenAI 
 
   - Azure AI Search
 
