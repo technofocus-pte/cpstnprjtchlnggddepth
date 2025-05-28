@@ -1,4 +1,4 @@
-# Challenge Part 1- Deploy Azure AI Fleet Resources
+# Challenge  1- Deploy Azure AI Fleet Resources
 
 ## **Objective** 
 
