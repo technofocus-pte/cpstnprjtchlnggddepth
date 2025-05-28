@@ -47,7 +47,7 @@ Search.
      
 ## Task 4 : Export embeddings to Azure AI search.
 
-1.  Open **export_embeddings_to_search.ipynb** from notebooks and run to
+1.  Open **export_embeddings_to_search.ipynb** from notebooks . Update .evn cell and  run cells to
     export embeddings to search index.
 
     ![A screenshot of a chat AI-generated content may be incorrect.](./media/Ch5image3.jpg)
