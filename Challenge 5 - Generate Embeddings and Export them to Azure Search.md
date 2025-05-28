@@ -21,9 +21,9 @@ Search.
 
 |Field Name|Data Type|Searchable|Filterable|Sortable|Facetable|Retrievable|Dimensions|
 |--|--|--|--|--|--|--|--|
-|filename|Edm.String|Yes|Yes|Yes|No|Yes||
-|content|Edm.String|Yes|No|No|No|Yes||
-|embedding|Collection(Edm.Single)|Yes|No|No|No|Yes|1536|
+|+++filename++|Edm.String|Yes|Yes|Yes|No|Yes||
+|+++content+++|Edm.String|Yes|No|No|No|Yes||
+|+++embedding++|Collection(Edm.Single)|Yes|No|No|No|Yes|+++1536+++|
 
 3.  Save vector profile with default values
 
