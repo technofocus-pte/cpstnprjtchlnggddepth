@@ -1,6 +1,7 @@
 # Challenge Part 1- Deploy Azure AI Fleet Resources
 
-Objective  
+## **Objective** 
+
 Clone the project repo and run the setup script to deploy core Azure
 resources for AI-powered fleet maintenance.
 
