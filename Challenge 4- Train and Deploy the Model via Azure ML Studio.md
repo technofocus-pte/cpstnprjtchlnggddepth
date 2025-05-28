@@ -9,15 +9,16 @@ it to an endpoint.
 
 1.  Open AML Studio
 
-2.Clone the GitHub repo in Coputer instance terminal:
+2. Clone the GitHub repo in Coputer instance terminal:
 
 +++git clone https://github.com/technofocus-pte/TFFleetOptmztn.git+++
 
 3.  Open **fleet_model_train.ipynb** from Notebooks section and run each cell of notebook
 
-4.  Train model using fleet_cleaned_data
+4. Update .env file with all your deployed Azure resource keys,endpoints
+5. Train model using fleet_cleaned_data
 
-5.  Deploy the model
+7.  Deploy the model form notebook
 
 **Success Criteria:**
 
