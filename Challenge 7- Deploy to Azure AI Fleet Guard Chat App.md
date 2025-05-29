@@ -12,7 +12,7 @@ Deploy Azure AI Fleet Guard app as Web app in Azure.
 
 3.  Right click on App Service and create web app with below data
     - App name : +++fleetguard@lab.labInstance.Id+++
-    - Region : Central US/West US/East US
+    - Region : Central US/West US/East US2
     - Python : 3.10
     - Plan :Basic
 
