@@ -18,7 +18,7 @@ Run the AI chat assistant that pulls answers from vector search and fleet predic
 
 +++python -m pip install --user -r requirements.txt+++
 
-+++pip install openai[datalib]+++
++++pip install openai\[datalib\]+++
 
 3.  Run the app locally with the command below
 
