@@ -21,6 +21,7 @@ Search.
 
 |Field Name|Data Type|Searchable|Filterable|Sortable|Facetable|Retrievable|Dimensions|
 |--|--|--|--|--|--|--|--|
+|+++id++|Edm.String|Yes|Yes|Yes|No|Yes||
 |+++filename++|Edm.String|Yes|Yes|Yes|No|Yes||
 |+++content+++|Edm.String|Yes|No|No|No|Yes||
 |+++embedding++|Collection(Edm.Single)|Yes|No|No|No|Yes|+++1536+++|
