@@ -5,20 +5,28 @@
 Clone the project repo and run the setup script to deploy core Azure
 resources for AI-powered fleet maintenance.
 
-**Steps:**
+## **Steps:**
 
-1.  Clone the GitHub repo in Azure Cloudshell:
+1. Open a browser and go to +++https://portal.azure.com+++ and sign in with your Azure subscription account.
 
-+++git clone https://github.com/technofocus-pte/TFFleetOptmztn.git+++
+    - Username: +++@lab.CloudPortalCredential(User1).Username+++
 
-2.  Provide permission (chmod +x setup.sh)to the setup.sh file located
+    - Password: +++@lab.CloudPortalCredential(User1).Password+++
+
+2.  Clone the GitHub repo in Azure Cloudshell:
+
+    +++git clone https://github.com/technofocus-pte/TFFleetOptmztn.git+++
+
+3.  Provide permission (chmod +x setup.sh)to the setup.sh file located
     in **TFFleetOptmztn**  folder and then run the setup script:
 
-+++cd TFFleetOptmztn/+++
+    +++cd TFFleetOptmztn/+++
 
-+++chmod +x setup.sh+++
+    +++chmod +x setup.sh+++
 
-3.  Wait for the script to run completely( the script will take 15-20
++++./setup.sh+++
+
+4.  Wait for the script to run completely( the script will take 15-20
     min to run successfully)
 
     - Azure Machine Learning Workspace
@@ -33,7 +41,7 @@ resources for AI-powered fleet maintenance.
       
 ![A screenshot of a chat AI-generated content may be incorrect.](./media/Ch1image1.jpg)
 
-**Success Criteria:**
+## **Success Criteria:**
 
 - Verify that all the required resources are deployed listed below are
   in the Azure portal.
